@@ -13,8 +13,9 @@
 
 { .block-language-dataview}
 # Nichtspielercharaktere
-| File | Datei |
-| ---- | ----- |
+| File                                                  | Datei            |
+| ----------------------------------------------------- | ---------------- |
+| [[Onaris/NPCs/Babitty Humanity\|Babitty Humanity]] | Babitty Humanity |
 
 { .block-language-dataview}
 # Fraktionen
