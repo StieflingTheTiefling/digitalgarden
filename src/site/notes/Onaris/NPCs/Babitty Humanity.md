@@ -20,17 +20,6 @@ Selten bis nie trifft man [[Onaris/NPCs/Babitty Humanity\|Babitty]] ohne seinen 
 </div></div>
   
   
-## Hintergrund  
-
-<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
-
-
-
-
-
-
-</div></div>
-
 
 ## Wird erwähnt in
 
