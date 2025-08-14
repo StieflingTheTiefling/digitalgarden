@@ -1,24 +1,17 @@
-body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-/* ========================
-   Digital Garden Fantasy Theme
-   ======================== */
-
 /* --- Globales Fantasy-Flair --- */
-    background-image: url("https://www.transparenttextures.com/patterns/rice-paper.png"); /* Pergament-Textur */
+body {
+    background-image: url("https://www.transparenttextures.com/patterns/rice-paper.png");
     font-family: 'Garamond', 'Times New Roman', serif;
     color: #f7e6b2;
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    /* --- Lesbarkeit --- */
+}
+
+/* --- Lesbarkeit --- */
 .markdown-preview-view {
     max-width: 800px;
     margin: 0 auto;
     padding: 1.5rem;
     line-height: 1.6;
-    background: rgba(255, 255, 245, 0.85); /* leicht transparent über Pergament */
+    background: rgba(255, 255, 245, 0.85);
     border: 2px solid #d6b98f;
     box-shadow: 0 0 15px rgba(50, 30, 10, 0.3);
     border-radius: 8px;
@@ -28,7 +21,7 @@ body {
 .markdown-preview-view h1,
 .markdown-preview-view h2,
 .markdown-preview-view h3 {
-    font-family: 'Cinzel Decorative', serif; /* kostenlose Google-Font im Fantasy-Stil */
+    font-family: 'Cinzel Decorative', serif;
     color: #5b2b2b;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
@@ -105,7 +98,4 @@ a:hover {
     .site-sidebar {
         font-size: 0.9rem;
     }
-}
-
-
 }
