@@ -2,7 +2,7 @@
 
 /* General body background */
 body {
-    background: linear-gradient(135deg, #2e1a47 0%, #5a3e1b 100%);
+    background-image: url("https://www.transparenttextures.com/patterns/rice-paper.png");
     font-family: 'Cinzel', 'Garamond', serif;
     color: #f3e9d2;
     min-height: 100vh;
@@ -261,21 +261,6 @@ main.content, .sidebar, header {
     font-family: 'Cinzel', serif;
     font-size: 1rem;
     margin-right: 0.5rem;
-}
-
-/* Responsive sidebar for mobile */
-@media (max-width: 900px) {
-    .filetree-sidebar, .sidebar {
-        position: static;
-        width: 100%;
-        max-width: none;
-        height: auto;
-        border-right: none;
-        border-bottom: 3px solid #bfa76f;
-        box-shadow: none;
-        margin-bottom: 2rem;
-        padding: 1rem;
-    }
 }
 
 /* Fantasy font imports */
