@@ -7,8 +7,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
 }
 
 /* Sidebar stays left */
@@ -29,6 +27,7 @@ body {
     background-image: url('https://www.transparenttextures.com/patterns/old-wall.png');
     background-repeat: repeat;
     flex-shrink: 0;
+    order: 1;
 }
 
 /* Main content in the center */
@@ -44,6 +43,7 @@ main.content {
     color: #4b2e09;
     flex: 1 1 0;
     min-width: 0;
+    order: 2;
 }
 
 /* Graph view stays right */
@@ -58,12 +58,13 @@ main.content {
     border-radius: 0 16px 16px 0;
     box-shadow: -4px 0 16px rgba(191, 167, 111, 0.15);
     padding: 2rem 1rem;
-    z-index: 30;
+    z-index: 10; /* Lower than sidebar if needed */
     overflow-y: auto;
     background-image: url('https://www.transparenttextures.com/patterns/old-wall.png');
     background-repeat: repeat;
     color: #4b2e09;
     flex-shrink: 0;
+    order: 3;
 }
 
 header {
