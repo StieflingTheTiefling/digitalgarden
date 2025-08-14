@@ -5,8 +5,33 @@ body {
     font-family: 'Cinzel', 'Garamond', serif;
     color: #4b2e09;
     min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
+/* Sidebar stays left */
+.filetree-sidebar, .sidebar {
+    background: rgba(243, 233, 210, 0.97);
+    border-right: 3px solid #bfa76f;
+    box-shadow: 4px 0 16px rgba(191, 167, 111, 0.15);
+    padding: 2rem 1rem 2rem 1.5rem;
+    min-width: 220px;
+    max-width: 300px;
+    height: 100vh;
+    font-family: 'Cinzel', 'Garamond', serif;
+    color: #4b2e09;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 20;
+    background-image: url('https://www.transparenttextures.com/patterns/old-wall.png');
+    background-repeat: repeat;
+    flex-shrink: 0;
+}
+
+/* Main content in the center */
 main.content {
     background: rgba(243, 233, 210, 0.97);
     border-radius: 16px;
@@ -17,6 +42,28 @@ main.content {
     border: 2px solid #bfa76f;
     font-family: 'Garamond', serif;
     color: #4b2e09;
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+/* Graph view stays right */
+.graph-view, #graph-view, .block-language-dataview .table-wrapper + div {
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100vh;
+    background: rgba(243, 233, 210, 0.97);
+    border-left: 2px solid #bfa76f;
+    border-radius: 0 16px 16px 0;
+    box-shadow: -4px 0 16px rgba(191, 167, 111, 0.15);
+    padding: 2rem 1rem;
+    z-index: 30;
+    overflow-y: auto;
+    background-image: url('https://www.transparenttextures.com/patterns/old-wall.png');
+    background-repeat: repeat;
+    color: #4b2e09;
+    flex-shrink: 0;
 }
 
 header {
@@ -36,24 +83,6 @@ header h1 {
     letter-spacing: 2px;
 }
 
-.filetree-sidebar, .sidebar {
-    background: rgba(243, 233, 210, 0.97);
-    border-right: 3px solid #bfa76f;
-    box-shadow: 4px 0 16px rgba(191, 167, 111, 0.15);
-    padding: 2rem 1rem 2rem 1.5rem;
-    min-width: 220px;
-    max-width: 300px;
-    height: 100vh;
-    font-family: 'Cinzel', 'Garamond', serif;
-    color: #4b2e09;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 20;
-    background-image: url('https://www.transparenttextures.com/patterns/old-wall.png');
-    background-repeat: repeat;
-}
-
 .filetree-sidebar a, .filetree-sidebar .foldername-wrapper {
     color: #4b2e09;
     font-size: 1.1rem;
@@ -69,24 +98,6 @@ header h1 {
     color: #bfa76f;
     background: rgba(191, 167, 111, 0.13);
     text-shadow: 0 0 8px #bfa76f;
-}
-
-.graph-view, #graph-view, .block-language-dataview .table-wrapper + div {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 350px;
-    height: 100vh;
-    background: rgba(243, 233, 210, 0.97);
-    border-left: 2px solid #bfa76f;
-    border-radius: 0 16px 16px 0;
-    box-shadow: -4px 0 16px rgba(191, 167, 111, 0.15);
-    padding: 2rem 1rem;
-    z-index: 30;
-    overflow-y: auto;
-    background-image: url('https://www.transparenttextures.com/patterns/old-wall.png');
-    background-repeat: repeat;
-    color: #4b2e09;
 }
 
 .graph-view .node, .graph-view .force-graph-node {
@@ -115,7 +126,11 @@ header h1 {
     text-shadow: 0 0 8px #bfa76f;
 }
 
+/* Responsive adjustments */
 @media (max-width: 1200px) {
+    body {
+        flex-direction: column;
+    }
     .graph-view, #graph-view, .block-language-dataview .table-wrapper + div {
         position: static;
         width: 100%;
