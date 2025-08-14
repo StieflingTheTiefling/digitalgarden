@@ -2,9 +2,9 @@
 /* high-fantasy.css */
 
 body {
-    background: linear-gradient(135deg, #2c1e4a 0%, #4b2e83 100%);
+    background-image: url("https://www.transparenttextures.com/patterns/rice-paper.png");
     color: #f3e9d2;
-    font-family: 'Cinzel', serif;
+    font-family: 'Garamond', 'Cinzel', serif;
     margin: 0;
     padding: 0;
 }
@@ -22,6 +22,7 @@ header h1 {
     color: #bfa76f;
     text-shadow: 2px 2px 8px #2c1e4a;
     letter-spacing: 2px;
+    font-family: 'Cinzel Decorative', serif;
     margin: 0;
 }
 
@@ -57,7 +58,7 @@ main {
 
 h2, h3 {
     color: #bfa76f;
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Garamond','Cinzel Decorative', cursive;
     margin-top: 2rem;
 }
 
@@ -134,3 +135,5 @@ footer {
 
 /* Import fantasy fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
