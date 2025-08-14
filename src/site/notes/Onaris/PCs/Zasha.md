@@ -40,8 +40,9 @@ languages: Common, Giant
 
 ## Wird erwähnt in
 
-| File                                      | Datei   |
-| ----------------------------------------- | ------- |
-| [[Onaris/Fraktionen/Circus5\|Circus5]] | Circus5 |
+| File                                                                 | Datei     |
+| -------------------------------------------------------------------- | --------- |
+| [[Onaris/Campaign Notes/WBTW/Session Recap/Session-0\|Session-0]] | Session-0 |
+| [[Onaris/Fraktionen/Circus5\|Circus5]]                            | Circus5   |
 
 { .block-language-dataview}

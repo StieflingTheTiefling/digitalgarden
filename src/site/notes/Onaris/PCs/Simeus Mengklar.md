@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/onaris/p-cs/simeus-mengklar/","tags":["pc kampagne/witchlight fraktion/Circus5"]}
+{"dg-publish":true,"permalink":"/onaris/p-cs/simeus-mengklar/","tags":["pc","kampagne/witchlight","fraktion/Circus5"]}
 ---
 
 **Spieler:** [[Mathias Steinlechner\|Mathias Steinlechner]]
@@ -53,8 +53,9 @@ Simeus findet sehr schnell Freunde und hat kein Problem damit, sich in neuen Gru
 
 ## Wird erwähnt in
 
-| File                                      | Datei   |
-| ----------------------------------------- | ------- |
-| [[Onaris/Fraktionen/Circus5\|Circus5]] | Circus5 |
+| File                                                                 | Datei     |
+| -------------------------------------------------------------------- | --------- |
+| [[Onaris/Campaign Notes/WBTW/Session Recap/Session-0\|Session-0]] | Session-0 |
+| [[Onaris/Fraktionen/Circus5\|Circus5]]                            | Circus5   |
 
 { .block-language-dataview}
