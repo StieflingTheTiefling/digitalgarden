@@ -6,7 +6,7 @@ body {
 }
 
 /* --- Lesbarkeit --- */
-.markdown-preview-view {
+/*.markdown-preview-view {
     max-width: 800px;
     margin: 0 auto;
     padding: 1.5rem;
@@ -18,7 +18,7 @@ body {
 }
 
 /* --- Überschriften im Fantasy-Stil --- */
-.markdown-preview-view h1,
+/*.markdown-preview-view h1,
 .markdown-preview-view h2,
 .markdown-preview-view h3 {
     font-family: 'Cinzel Decorative', serif;
@@ -29,12 +29,12 @@ body {
 }
 
 /* --- Absatzabstände --- */
-.markdown-preview-view p {
+/*.markdown-preview-view p {
     margin-bottom: 1em;
 }
 
 /* --- Links mit Pergamentfarbe --- */
-a {
+/*a {
     color: #8b2d2d;
     text-decoration: none;
     font-weight: bold;
@@ -45,14 +45,14 @@ a:hover {
 }
 
 /* --- Sidebar im Holzstil --- */
-.site-sidebar {
+/*.site-sidebar {
     background: #ede1c6 url('https://www.transparenttextures.com/patterns/wood-pattern.png') repeat;
     border-right: 3px solid #b78a4b;
     box-shadow: inset -2px 0 5px rgba(0,0,0,0.2);
 }
 
 /* Sidebar-Text */
-.nav-folder-title,
+/*.nav-folder-title,
 .nav-file-title {
     font-family: 'Garamond', serif;
     color: #3b2f2f;
@@ -69,7 +69,7 @@ a:hover {
 }
 
 /* --- Suche im Fantasy-Stil --- */
-.search-input {
+/*.search-input {
     font-family: 'Garamond', serif;
     font-size: 0.95rem;
     padding: 0.4em 0.6em;
@@ -83,7 +83,7 @@ a:hover {
 }
 
 /* --- Graph-Ansicht Pergamentrahmen --- */
-.graph-view {
+/*.graph-view {
     background: #f8f0dc;
     border: 2px solid #d6b98f;
     border-radius: 6px;
@@ -91,11 +91,11 @@ a:hover {
 }
 
 /* --- Mobile Anpassung --- */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .markdown-preview-view {
         padding: 1rem;
     }
     .site-sidebar {
         font-size: 0.9rem;
     }
-}
+}*/
