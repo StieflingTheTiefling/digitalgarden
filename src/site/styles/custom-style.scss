@@ -151,5 +151,132 @@ main.content, .sidebar, header {
     }
 }
 
+/* --- Sidebar --- */
+.filetree-sidebar, .sidebar {
+    background: linear-gradient(120deg, #3b2c1a 60%, #6e4b1b 100%);
+    border-right: 3px solid #bfa76f;
+    box-shadow: 4px 0 16px rgba(47, 34, 17, 0.2);
+    padding: 2rem 1rem 2rem 1.5rem;
+    min-width: 220px;
+    max-width: 300px;
+    height: 100vh;
+    font-family: 'Cinzel', 'Garamond', serif;
+    color: #e9d8a6;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 20;
+}
+
+.filetree-sidebar h1 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 2.2rem;
+    color: #e9d8a6;
+    text-shadow: 2px 2px 8px #4b2e09;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}
+
+.filetree-sidebar a, .filetree-sidebar .foldername-wrapper {
+    color: #e9d8a6;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: color 0.2s;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    display: block;
+}
+
+.filetree-sidebar a:hover, .filetree-sidebar .foldername-wrapper:hover,
+.filetree-sidebar .is-active, .filetree-sidebar .active {
+    color: #bfa76f;
+    background: rgba(191, 167, 111, 0.13);
+    text-shadow: 0 0 8px #e9d8a6;
+}
+
+.filetree-sidebar .search-button {
+    background: #bfa76f;
+    color: #3b2c1a;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(191, 167, 111, 0.2);
+    cursor: pointer;
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+}
+
+.filetree-sidebar .search-button:hover {
+    background: #e9d8a6;
+    color: #6e4b1b;
+}
+
+/* --- Graph View --- */
+#graph-view, .graph-view, .block-language-dataview .table-wrapper + div {
+    background: linear-gradient(135deg, #2e1a47 0%, #5a3e1b 100%);
+    border: 2px solid #bfa76f;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(47, 34, 17, 0.3);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+/* Graph nodes and edges */
+.graph-view .node, .graph-view .force-graph-node {
+    fill: #bfa76f !important;
+    stroke: #e9d8a6 !important;
+    stroke-width: 2px;
+    filter: drop-shadow(0 0 6px #e9d8a6);
+}
+
+.graph-view .node.active, .graph-view .force-graph-node.active {
+    fill: #e9d8a6 !important;
+    stroke: #bfa76f !important;
+    stroke-width: 3px;
+}
+
+.graph-view .link, .graph-view .force-graph-link {
+    stroke: #e9d8a6 !important;
+    stroke-width: 2px;
+    opacity: 0.8;
+}
+
+.graph-view .label, .graph-view text {
+    font-family: 'Cinzel', serif;
+    fill: #e9d8a6 !important;
+    font-size: 1.1rem;
+    text-shadow: 0 0 8px #bfa76f;
+}
+
+/* Graph controls */
+.graph-view .depth-slider, .graph-view input[type="range"] {
+    accent-color: #bfa76f;
+    background: #3b2c1a;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.graph-view .depth-label {
+    color: #e9d8a6;
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+/* Responsive sidebar for mobile */
+@media (max-width: 900px) {
+    .filetree-sidebar, .sidebar {
+        position: static;
+        width: 100%;
+        max-width: none;
+        height: auto;
+        border-right: none;
+        border-bottom: 3px solid #bfa76f;
+        box-shadow: none;
+        margin-bottom: 2rem;
+        padding: 1rem;
+    }
+}
+
 /* Fantasy font imports */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Cinzel+Decorative:wght@700&display=swap');
