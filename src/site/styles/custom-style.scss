@@ -211,42 +211,5 @@ main.content, .sidebar, header {
     color: #6e4b1b;
 }
 
-/* --- Graph View --- */
-#graph-view, .graph-view, .block-language-dataview .table-wrapper + div {
-    background: linear-gradient(135deg, #2e1a47 0%, #5a3e1b 100%);
-    border: 2px solid #bfa76f;
-    border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(47, 34, 17, 0.3);
-    padding: 1.5rem;
-    margin: 1.5rem 0;
-}
-
-/* Graph nodes and edges */
-.graph-view .node, .graph-view .force-graph-node {
-    fill: #bfa76f !important;
-    stroke: #e9d8a6 !important;
-    stroke-width: 2px;
-    filter: drop-shadow(0 0 6px #e9d8a6);
-}
-
-.graph-view .node.active, .graph-view .force-graph-node.active {
-    fill: #e9d8a6 !important;
-    stroke: #bfa76f !important;
-    stroke-width: 3px;
-}
-
-.graph-view .link, .graph-view .force-graph-link {
-    stroke: #e9d8a6 !important;
-    stroke-width: 2px;
-    opacity: 0.8;
-}
-
-.graph-view .label, .graph-view text {
-    font-family: 'Cinzel', serif;
-    fill: #e9d8a6 !important;
-    font-size: 1.1rem;
-    text-shadow: 0 0 8px #bfa76f;
-}
-
 /* Fantasy font imports */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Cinzel+Decorative:wght@700&display=swap');
