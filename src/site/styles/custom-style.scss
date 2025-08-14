@@ -59,7 +59,7 @@ main.content p, main.content li {
 
 /* Sidebar styling */
 .sidebar {
-    background: linear-gradient(120deg, #3b2c1a 60%, #6e4b1b 100%);
+    background-image: url("https://www.transparenttextures.com/patterns/rice-paper.png");
     border-left: 3px solid #bfa76f;
     box-shadow: -4px 0 16px rgba(47, 34, 17, 0.2);
     padding: 2rem 1rem;
@@ -246,21 +246,6 @@ main.content, .sidebar, header {
     fill: #e9d8a6 !important;
     font-size: 1.1rem;
     text-shadow: 0 0 8px #bfa76f;
-}
-
-/* Graph controls */
-.graph-view .depth-slider, .graph-view input[type="range"] {
-    accent-color: #bfa76f;
-    background: #3b2c1a;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-}
-
-.graph-view .depth-label {
-    color: #e9d8a6;
-    font-family: 'Cinzel', serif;
-    font-size: 1rem;
-    margin-right: 0.5rem;
 }
 
 /* Fantasy font imports */
