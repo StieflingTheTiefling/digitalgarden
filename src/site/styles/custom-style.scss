@@ -4,7 +4,7 @@
 body {
     background-image: url("https://www.transparenttextures.com/patterns/rice-paper.png");
     color: #f3e9d2;
-    font-family: 'Garamond', 'Cinzel', serif;
+    font-family: 'EB Garamond', serif;
     margin: 0;
     padding: 0;
 }
@@ -20,14 +20,14 @@ header {
 header h1 {
     font-size: 3rem;
     color: #bfa76f;
-    text-shadow: 2px 2px 8px #2c1e4a;
+    text-shadow: 2px 2px 8px #bfa76f;
     letter-spacing: 2px;
     font-family: 'Cinzel Decorative', serif;
     margin: 0;
 }
 
 nav {
-    background: #3a245b;
+    background: #f3e9d2;
     border-bottom: 2px solid #bfa76f;
     padding: 0.5rem 0;
     text-align: center;
@@ -136,4 +136,5 @@ footer {
 /* Import fantasy fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Cinzel+Decorative:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
