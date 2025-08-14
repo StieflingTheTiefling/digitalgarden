@@ -127,6 +127,78 @@ header h1 {
     text-shadow: 0 0 8px #bfa76f;
 }
 
+/* Style the graph wrapper to stay on the right */
+#graph-component.graph {
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100vh;
+    background: rgba(243, 233, 210, 0.97);
+    border-left: 2px solid #bfa76f;
+    border-radius: 0 16px 16px 0;
+    box-shadow: -4px 0 16px rgba(191, 167, 111, 0.15);
+    padding: 2rem 1rem;
+    z-index: 10;
+    overflow-y: auto;
+    background-image: url('https://www.transparenttextures.com/patterns/old-wall.png');
+    background-repeat: repeat;
+    color: #4b2e09;
+    flex-shrink: 0;
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the graph title */
+#graph-component .graph-title {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 1.3rem;
+    color: #4b2e09;
+    margin-bottom: 1rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* Style the controls */
+#graph-controls label,
+#graph-controls span,
+#graph-controls input[type="range"] {
+    font-family: 'Cinzel', serif;
+    color: #4b2e09;
+}
+
+/* Style the graph container and canvas */
+#link-graph .force-graph-container {
+    background: rgba(243, 233, 210, 0.97);
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(191, 167, 111, 0.15);
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#link-graph canvas {
+    background: transparent;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(191, 167, 111, 0.10);
+}
+
+/* Tooltip styling */
+.graph-tooltip {
+    background: #bfa76f;
+    color: #4b2e09;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    box-shadow: 0 2px 8px rgba(191, 167, 111, 0.15);
+    border: 1px solid #e9d8a6;
+}
+
 /* Responsive adjustments */
 @media (max-width: 1200px) {
     body {
@@ -156,6 +228,17 @@ header h1 {
     }
     main.content {
         margin: 1rem;
+        padding: 1rem;
+    }
+    #graph-component.graph {
+        position: static;
+        width: 100%;
+        height: auto;
+        border-left: none;
+        border-top: 2px solid #bfa76f;
+        border-radius: 0 0 16px 16px;
+        box-shadow: none;
+        margin-bottom: 2rem;
         padding: 1rem;
     }
 }
