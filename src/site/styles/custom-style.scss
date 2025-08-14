@@ -133,27 +133,9 @@ main.content, .sidebar, header {
     background: rgba(191, 167, 111, 0.07);
 }
 
-/* Responsive adjustments */
-@media (max-width: 900px) {
-    .sidebar {
-        position: static;
-        width: 100%;
-        max-width: none;
-        height: auto;
-        border-left: none;
-        border-top: 3px solid #bfa76f;
-        box-shadow: none;
-        margin-bottom: 2rem;
-    }
-    main.content {
-        margin: 1rem;
-        padding: 1rem;
-    }
-}
-
 /* --- Sidebar --- */
 .filetree-sidebar, .sidebar {
-    background: linear-gradient(120deg, #3b2c1a 60%, #6e4b1b 100%);
+    background-image: url("https://www.transparenttextures.com/patterns/rice-paper.png");
     border-right: 3px solid #bfa76f;
     box-shadow: 4px 0 16px rgba(47, 34, 17, 0.2);
     padding: 2rem 1rem 2rem 1.5rem;
