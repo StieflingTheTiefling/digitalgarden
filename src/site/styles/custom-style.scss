@@ -1,166 +1,61 @@
-/* High Fantasy Theme: Sidebar, Header, Main Content */
-
-/* General body background */
 body {
-    background-image: url("https://www.transparenttextures.com/patterns/rice-paper.png");
+    background: url('https://www.transparenttextures.com/patterns/old-wall.png'), #f3e9d2;
+    background-size: cover;
+    background-repeat: repeat;
     font-family: 'Cinzel', 'Garamond', serif;
-    color: #f3e9d2;
+    color: #4b2e09;
     min-height: 100vh;
 }
 
-/* Header styling */
+main.content {
+    background: rgba(243, 233, 210, 0.97);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(191, 167, 111, 0.25);
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 900px;
+    border: 2px solid #bfa76f;
+    font-family: 'Garamond', serif;
+    color: #4b2e09;
+}
+
 header {
     background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
     border-bottom: 4px solid #bfa76f;
     box-shadow: 0 4px 16px rgba(47, 34, 17, 0.3);
     padding: 2rem 1rem 1rem 1rem;
     text-align: center;
+    border-radius: 16px 16px 0 0;
 }
 
 header h1 {
     font-family: 'Cinzel Decorative', 'Garamond', serif;
     font-size: 2.5rem;
-    color: #e9d8a6;
+    color: #bfa76f;
     text-shadow: 2px 2px 8px #4b2e09;
     letter-spacing: 2px;
 }
 
-.header-meta {
-    font-size: 1rem;
-    color: #d4c2a6;
-    margin-top: 0.5rem;
-}
-
-/* Main content area */
-main.content {
-    background: rgba(44, 32, 19, 0.85);
-    border-radius: 12px;
-    box-shadow: 0 8px 32px rgba(47, 34, 17, 0.4);
-    margin: 2rem auto;
-    padding: 2rem;
-    max-width: 900px;
-    border: 2px solid #bfa76f;
-}
-
-main.content h1, main.content h2, main.content h3 {
-    font-family: 'Cinzel Decorative', 'Garamond', serif;
-    color: #e9d8a6;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid #bfa76f;
-    padding-bottom: 0.3rem;
-}
-
-main.content p, main.content li {
-    font-size: 1.15rem;
-    color: #f3e9d2;
-    line-height: 1.7;
-}
-
-/* Sidebar styling */
-.sidebar {
-    background-image: url("https://www.transparenttextures.com/patterns/rice-paper.png");
-    border-left: 3px solid #bfa76f;
-    box-shadow: -4px 0 16px rgba(47, 34, 17, 0.2);
-    padding: 2rem 1rem;
-    min-width: 220px;
-    max-width: 300px;
-    position: fixed;
-    right: 0;
-    top: 0;
-    height: 100vh;
-    z-index: 10;
-}
-
-.sidebar-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-.sidebar a, .sidebar .foldername-wrapper {
-    color: #e9d8a6;
-    font-family: 'Cinzel', serif;
-    font-size: 1.1rem;
-    text-decoration: none;
-    transition: color 0.2s;
-}
-
-.sidebar a:hover, .sidebar .foldername-wrapper:hover {
-    color: #bfa76f;
-    text-shadow: 0 0 8px #e9d8a6;
-}
-
-/* Fantasy borders and accents */
-main.content, .sidebar, header {
-    border-radius: 12px;
-    border: 2px solid #bfa76f;
-}
-
-.callout {
-    background: rgba(191, 167, 111, 0.15);
-    border-left: 4px solid #bfa76f;
-    margin: 1.5rem 0;
-    padding: 1rem;
-    border-radius: 8px;
-    color: #e9d8a6;
-    font-family: 'Garamond', serif;
-}
-
-/* Table styling for campaign/oneshot lists */
-.table-wrapper table {
-    width: 100%;
-    background: rgba(44, 32, 19, 0.95);
-    border-collapse: collapse;
-    border-radius: 8px;
-    overflow: hidden;
-    margin-bottom: 2rem;
-}
-
-.table-wrapper th, .table-wrapper td {
-    border: 1px solid #bfa76f;
-    padding: 0.75rem 1rem;
-    color: #e9d8a6;
-    font-family: 'Cinzel', serif;
-}
-
-.table-wrapper th {
-    background: #6e4b1b;
-    font-size: 1.1rem;
-}
-
-.table-wrapper tr:nth-child(even) {
-    background: rgba(191, 167, 111, 0.07);
-}
-
-/* --- Sidebar --- */
 .filetree-sidebar, .sidebar {
-    background-image: url("https://www.transparenttextures.com/patterns/rice-paper.png");
+    background: rgba(243, 233, 210, 0.97);
     border-right: 3px solid #bfa76f;
-    box-shadow: 4px 0 16px rgba(47, 34, 17, 0.2);
+    box-shadow: 4px 0 16px rgba(191, 167, 111, 0.15);
     padding: 2rem 1rem 2rem 1.5rem;
     min-width: 220px;
     max-width: 300px;
     height: 100vh;
     font-family: 'Cinzel', 'Garamond', serif;
-    color: #e9d8a6;
+    color: #4b2e09;
     position: fixed;
     left: 0;
     top: 0;
     z-index: 20;
-}
-
-.filetree-sidebar h1 {
-    font-family: 'Cinzel Decorative', serif;
-    font-size: 2.2rem;
-    color: #e9d8a6;
-    text-shadow: 2px 2px 8px #4b2e09;
-    margin-bottom: 2rem;
-    letter-spacing: 2px;
+    background-image: url('https://www.transparenttextures.com/patterns/old-wall.png');
+    background-repeat: repeat;
 }
 
 .filetree-sidebar a, .filetree-sidebar .foldername-wrapper {
-    color: #e9d8a6;
+    color: #4b2e09;
     font-size: 1.1rem;
     text-decoration: none;
     transition: color 0.2s;
@@ -173,25 +68,80 @@ main.content, .sidebar, header {
 .filetree-sidebar .is-active, .filetree-sidebar .active {
     color: #bfa76f;
     background: rgba(191, 167, 111, 0.13);
-    text-shadow: 0 0 8px #e9d8a6;
+    text-shadow: 0 0 8px #bfa76f;
 }
 
-.filetree-sidebar .search-button {
-    background: #bfa76f;
-    color: #3b2c1a;
-    border-radius: 6px;
-    padding: 0.5rem 1rem;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 2px 8px rgba(191, 167, 111, 0.2);
-    cursor: pointer;
+.graph-view, #graph-view, .block-language-dataview .table-wrapper + div {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100vh;
+    background: rgba(243, 233, 210, 0.97);
+    border-left: 2px solid #bfa76f;
+    border-radius: 0 16px 16px 0;
+    box-shadow: -4px 0 16px rgba(191, 167, 111, 0.15);
+    padding: 2rem 1rem;
+    z-index: 30;
+    overflow-y: auto;
+    background-image: url('https://www.transparenttextures.com/patterns/old-wall.png');
+    background-repeat: repeat;
+    color: #4b2e09;
+}
+
+.graph-view .node, .graph-view .force-graph-node {
+    fill: #bfa76f !important;
+    stroke: #4b2e09 !important;
+    stroke-width: 2px;
+    filter: drop-shadow(0 0 6px #bfa76f);
+}
+
+.graph-view .node.active, .graph-view .force-graph-node.active {
+    fill: #e9d8a6 !important;
+    stroke: #bfa76f !important;
+    stroke-width: 3px;
+}
+
+.graph-view .link, .graph-view .force-graph-link {
+    stroke: #bfa76f !important;
+    stroke-width: 2px;
+    opacity: 0.8;
+}
+
+.graph-view .label, .graph-view text {
     font-family: 'Cinzel', serif;
-    font-size: 1rem;
+    fill: #4b2e09 !important;
+    font-size: 1.1rem;
+    text-shadow: 0 0 8px #bfa76f;
 }
 
-.filetree-sidebar .search-button:hover {
-    background: #e9d8a6;
-    color: #6e4b1b;
+@media (max-width: 1200px) {
+    .graph-view, #graph-view, .block-language-dataview .table-wrapper + div {
+        position: static;
+        width: 100%;
+        height: auto;
+        border-left: none;
+        border-top: 2px solid #bfa76f;
+        border-radius: 0 0 16px 16px;
+        box-shadow: none;
+        margin-bottom: 2rem;
+        padding: 1rem;
+    }
+    .filetree-sidebar, .sidebar {
+        position: static;
+        width: 100%;
+        max-width: none;
+        height: auto;
+        border-right: none;
+        border-bottom: 3px solid #bfa76f;
+        box-shadow: none;
+        margin-bottom: 2rem;
+        padding: 1rem;
+    }
+    main.content {
+        margin: 1rem;
+        padding: 1rem;
+    }
 }
 
-/* Fantasy font imports */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Cinzel+Decorative:wght@700&display=swap');
