@@ -34,5 +34,20 @@ Madryck: "Früher war alles besser, bevor dieser Von Hauptmannen, dieser Rollo d
 Wirklich sinnvolles konnte ich leider nicht aus ihm heraus kitzeln. [[Madryck Roslof]] bekannt für seine Errungenschaften in seiner Zeit als Hexenmeister und Abenteurer ist nur mehr ein verbitterter Greis. Zum Glück, war die Gruppe doch auffälliger, sodass ich einen Bericht von Augenzeugen aus dem Karneval befragen konnte. Hier die Timeline:
 ```
 
-*12:00 Uhr*
-Die Gruppe kommt am Karneval an. [[Onaris/PCs/B.L.O.B.\|B.L.O.B.]] ist der einzige der 
+*14:00 Uhr*
+Die Gruppe kommt am Karneval an. [[Onaris/PCs/B.L.O.B.\|B.L.O.B.]] ist der einzige der einen Pakt für das Ticket eingegangen ist. Das Zeugt von einem gewissen Misstrauen der restlichen Gruppe gegenüber Fremden. Andererseits ließen sie sich einlullen den Löwenzahmsamen von [[Northwind\|Northwind]] zu fangen.
+
+*ca. 14:00 Uhr - 15:30 Uhr*
+Ihr erster Stop ist der Bubble-Pop Teapot. [[Onaris/PCs/Simeus Mengklar\|Simeus Mengklar]] versuchte sich erfolgreich am Reimen und konnte somit den Goblin [[Treaclewise\|Treaclewise]] für sich gewinnen.
+
+*ca. 15:30 Uhr - 16:30 Uhr*
+Bei der Mystery Mine, eine Geisterbahn, die gezielt auf die Ängste der Mitfahrenden wirkt nahmen [[Onaris/PCs/Skeira Malfier\|Skeira Malfier]] und [[Onaris/PCs/Grog Strongjaw\|Grog Strongjaw]] teil. Grog aber wirkte als ob ihn die Geisterbahn mehr mitgenommen hatte. Dies wird notiert und könnte auf eine mögliche Schwachstelle in ihm hindeuten. Wenn ich nur wüsste was er sah..
+
+*ca 16:30 Uhr - 18:00 Uhr*
+Am dortigen Schneckenrennen konnte ich die Aufzeichnungen des Rennens an dem [[Onaris/PCs/Skeira Malfier\|Skeira Malfier]] und [[Onaris/PCs/B.L.O.B.\|B.L.O.B.]] teilnahmten finden. Während dem Rennen passierte nichts außergewöhnliches wo sich aber die anderen drei aufhielten, konnte ich nicht herausfinden.
+[[Onaris/PCs/B.L.O.B.\|B.L.O.B.]] machte den ersten Platz und [[Onaris/PCs/Skeira Malfier\|Skeira Malfier]] den letzten.
+
+*18:00 Uhr - 19:50 Uhr*
+In dieser Zeitspanne ist tatsächlich besser dokumentiert was die Gruppe unternahm. Nach dem Schneckenrennen haben die beiden Goliaths [[Onaris/PCs/Grog Strongjaw\|Grog Strongjaw]] und [[Onaris/PCs/Zasha\|Zasha]] beim Goblin-Wrestling mitgemacht. Ich konnte einen Bericht der dortigen Sanitäter aufstöbern, der beschreibt wie Grog die beiden Goblins [[Mannfred\|Mannfred]] und [[Hermann\|Hermann]] in den Boden stampfte. Der Goliath verwendete seinen Primal Rage um  sich einen Vorteil in dem "Spiel" zu verschaffen.
+Danach gingen sie noch ins Pixie Kingdom, es wurde aber leider nirgends notiert, welche Namen sie sich zulegten. Schade, diese Info hätte uns in der Feenwildnis geholfen.
+
