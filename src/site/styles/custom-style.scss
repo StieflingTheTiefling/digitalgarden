@@ -2,7 +2,8 @@
 /* high-fantasy.css */
 
 body {
-    background-image: url("https://www.transparenttextures.com/patterns/rice-paper.png");
+    //https://www.transparenttextures.com/patterns/rice-paper.png
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
     color: #f3e9d2;
     font-family: 'EB Garamond', serif;
     margin: 0;
@@ -47,9 +48,10 @@ nav a:hover {
 }
 
 main {
+    //https://www.transparenttextures.com/patterns/wood-pattern.png
     max-width: 900px;
     margin: 2rem auto;
-    background: #ede1c6 url('https://www.transparenttextures.com/patterns/wood-pattern.png') repeat;
+    background: #ede1c6 url('https://www.transparenttextures.com/patterns/rice-paper.png') repeat;
     border-radius: 12px;
     box-shadow: 0 8px 32px rgba(44,30,74,0.7);
     padding: 2rem;
