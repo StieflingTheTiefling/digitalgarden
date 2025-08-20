@@ -4,7 +4,7 @@
 
 # Spielercharakter
 [[Onaris/Campaign Notes/WBTW/PC-Index\|PC-Index]]
-<a href="/PC-Index">
+<a href="src/site/notes/Onaris/Campaign Notes/WBTW/PC-Index">
   <img src="witchlightPcParty.png" alt="Clickable Image" width="500">
 </a>
 
