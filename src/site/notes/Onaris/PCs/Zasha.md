@@ -3,8 +3,6 @@
 ---
 
 **Spieler:** [[Valeriia Steinlechner-Reveko\|Valeriia Steinlechner-Reveko]]
-**Kampagne:** [[Onaris/Campaign Notes/WBTW/Wild Beyond The Witchlight\|Wild Beyond The Witchlight]]
-**Gruppe:** [[Onaris/Fraktionen/Circus5\|Circus5]]
 ```statblock
 stats: [ 1, 1, 1, 1, 1, 1 ]
 cr: 3
