@@ -53,8 +53,8 @@ Simeus findet sehr schnell Freunde und hat kein Problem damit, sich in neuen Gru
 
 | File                                                                 | Datei     |
 | -------------------------------------------------------------------- | --------- |
-| [[Onaris/Campaign Notes/WBTW/Session Recap/Session-0\|Session-0]] | Session-0 |
 | [[Onaris/Campaign Notes/WBTW/Session Recap/Session-1\|Session-1]] | Session-1 |
+| [[Onaris/Campaign Notes/WBTW/Session Recap/Session-0\|Session-0]] | Session-0 |
 | [[Onaris/Fraktionen/Circus5\|Circus5]]                            | Circus5   |
 
 { .block-language-dataview}
