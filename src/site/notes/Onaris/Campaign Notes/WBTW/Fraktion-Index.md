@@ -5,6 +5,7 @@
 # Fraktionen
 | File                                                                  | Datei                 |
 | --------------------------------------------------------------------- | --------------------- |
+| [[Onaris/Backlog/Faktenschleuder\|Faktenschleuder]]                | Faktenschleuder       |
 | [[Onaris/Fraktionen/Circus5\|Circus5]]                             | Circus5               |
 | [[Onaris/Fraktionen/League of Malevolence\|League of Malevolence]] | League of Malevolence |
 

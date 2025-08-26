@@ -7,5 +7,6 @@
 | -------------------------------------------------------------------- | --------- |
 | [[Onaris/Campaign Notes/WBTW/Session Recap/Session-1\|Session-1]] | Session-1 |
 | [[Onaris/Campaign Notes/WBTW/Session Recap/Session-0\|Session-0]] | Session-0 |
+| [[Onaris/Campaign Notes/WBTW/Session Recap/Session-2\|Session-2]] | Session-2 |
 
 { .block-language-dataview}
